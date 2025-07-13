@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  font-family: 'Pretendard', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eeeeee;
+  height: 100vh;
+}
+
+/* ───────────────────────── 메인 컨테이너 ───────────────────────── */
+.main-chat-screen {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  transition: all 0.4s ease;
+}
+
+/* 데스크탑 모드 */
+.main-chat-screen.desktop-mode {
+  width: 1024px;
+  height: 700px;
+  border-radius: 16px;
+}
+
+/* ───────────────────────── 배경 이미지 ───────────────────────── */
+#light-bg,
+#dark-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+#light-bg { opacity: 1; }
+#dark-bg  { opacity: 0; }
+.main-chat-screen.darkmode #light-bg { opacity: 0; }
+.main-chat-screen.darkmode #dark-bg  { opacity: 1; }
+
+/* ───────────────────────── 다크모드 토글 ───────────────────────── */
+.toggle-wrapper {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  z-index: 3;
+}
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 24px;
+}
+.toggle input { opacity: 0; width: 0; height: 0; }
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 34px;
+  transition: 0.4s;
+}
+.slider::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  bottom: 3px;
+  width: 16px;
+  height: 16px;
+  background: #000;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+.toggle input:checked + .slider { background: #000; }
+.toggle input:checked + .slider::before {
+  transform: translateX(18px);
+  background: #fff;
+}
+
+/* ───────────────────────── 모드 전환 버튼 ───────────────────────── */
+.mode-buttons {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 3;
+  display: flex;
+  gap: 8px;
+}
+.mode-buttons button {
+  border: none;
+  background: rgba(255,255,255,0.9);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 4px 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.mode-buttons button img { width: 24px; height: 24px; }
+
+/* ───────────────────────── 채팅 영역 ───────────────────────── */
+.chat-body {
+  position: absolute;
+  top: 100px;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+  padding: 16px;
+  z-index: 2;
+}
+
+.bot-message-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.bot-avatar { width: 40px; height: 40px; border-radius: 50%; }
+.bot-message {
+  background: rgba(255,255,255,0.9);
+  padding: 12px 16px;
+  border-radius: 16px 16px 16px 0;
+  font-size: 16px;
+  max-width: 80%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.user-message { display: flex; justify-content: flex-end; margin-bottom: 14px; }
+.user-bubble {
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 16px 16px 0 16px;
+  font-size: 16px;
+  max-width: 80%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* 입력창 */
+.chat-footer {
+  position: absolute;
+  bottom: 24px;
+  left: 16px;
+  right: 16px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  background: rgba(255,255,255,0.9);
+  border-radius: 30px;
+  padding: 6px 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+#user-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 14px;
+  padding: 8px;
+}
+#send-btn {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+/* ───────────────────────── 후속질문 스타일 ───────────────────────── */
+.followup-questions {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+  font-weight: 500;
+}
+
+.followup-button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.followup-item {
+  position: relative;
+  background: #eef0ff;
+  border: none;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: #1e40af;
+  border-radius: 14px;
+  width: fit-content;
+  max-width: 100%;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  transition: background 0.2s;
+  opacity: 0;
+  transform: translateY(6px);
+}
+.followup-item.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.followup-item:hover { background: #dfe3ff; }
+
+/* 말풍선 꼬리 */
+.followup-item::before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 10px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent #eef0ff transparent transparent;
+}

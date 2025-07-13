@@ -1,0 +1,5 @@
+{
+  "title": "유비쿼터스 통신 연구실",
+  "url": "https://hyu.wiki/%EC%9C%A0%EB%B9%84%EC%BF%BC%ED%84%B0%EC%8A%A4%ED%86%B5%EC%8B%A0%EC%97%B0%EA%B5%AC%EC%8B%A4",
+  "content": "연구 분야는 VANET(Vehicular Ad hoc Network) Protocol 및 시뮬레이션 연구, 차량통신 기반 안전 시스템 연구, 무선랜 기반 측위 그리고 V2X를 이용한 GNSS(Global Navigation Satellite System) 상대 측위로 나눌 수 있다.\n소속: 서울 공과대학\n융합전자공학부\n실장:\n이상선\n융합전자공학부\n교수\n홈페이지:\nhttp://u-crl.hanyang.ac.kr\n목차\n1\n주요 연구\n1.1\nVANET Protocol 연구 및 시뮬레이션\n1.2\n차량통신 기반 안전 시스템 연구\n1.3\n무선랜 기반 측위\n1.4\nV2X를 이용한 GNSS 상대측위\n주요 연구\nVANET Protocol 연구 및 시뮬레이션\nVANET 분야를 기초로 하여 Network 및 MAC 프로토콜 설계에 대한 연구를 하며, 네트워크 시뮬레이션을 통해 성능 평가 및 개선과 차량네트워크 기술의 국내외 표준(KSA, TTA, ITS-K, ISO TC204) 상정을 위한 표준연구를 진행하고 있다.\n차량통신 기반 안전 시스템 연구\nWAVE(Wireless Access in Vehicular Environments) 기반 안전\n서비스 시나리오 및 알고리즘 개발, 안전 서비스를 위한 모델링 및 메시지 설계와 차량 안전시스템 및 테스트 베드 구성에 대한 연구를 하고 있다.\n무선랜 기반 측위\n확률론적 위치결정방법에 대한 알고리즘, 무선채널에 대한 분석, 그리고 패턴인식 알고리즘을 RSS (Received Signal Strength)와 패킷 이동시간 기반의 측위 알고리즘에 적용하고, 무선통신시스템과 센서 시스템을 활용한 실내/외 측위 시스템에 관한 연구를 진행하고 있다.\nV2X를 이용한 GNSS 상대측위\n고 정확성 측위 알고리즘과 통신 Latency 감소 알고리즘을 적용한 Low Cost 시스템 개발 연구를 진행 중이다."
+}

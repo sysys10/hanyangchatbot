@@ -1,0 +1,5 @@
+{
+  "title": "한양위키/문법/영상삽입",
+  "url": "https://hyu.wiki/%ED%95%9C%EC%96%91%EC%9C%84%ED%82%A4/%EB%AC%B8%EB%B2%95/%EC%98%81%EC%83%81%EC%82%BD%EC%9E%85",
+  "content": "한양위키\n문법/영상삽입\n유튜브\n방식 : <youtube> 유튜브영상 ID </youtube>\n출처 :\nhttps://www.mediawiki.org/wiki/Extension:YouTube\n2020.05.04 부터 적용\n예시 :\nhttps://www.youtube.com/watch?v=PzUZ1zP940U\n영상 아이디 : PzUZ1zP940U (영상 URL 끝부분에 영문 숫자 조합으로 나타나는 고유값)\n실제 표기 : <youtube>PzUZ1zP940U </youtube>\nembed Video\n출처 :\nhttps://www.mediawiki.org/wiki/Extension:EmbedVideo\n2020.05.04 부터 적용"
+}

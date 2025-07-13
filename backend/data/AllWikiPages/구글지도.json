@@ -1,0 +1,5 @@
+{
+  "title": "구글지도",
+  "url": "https://hyu.wiki/%EA%B5%AC%EA%B8%80%EC%A7%80%EB%8F%84",
+  "content": "대학 기관 홈페이지에는 동해 및 독도 표기 오류에 주의해야 한다. 부득이 구글 지도를 사용해야 하는 경우에는 지정 방식을 통해 지역값에 따라 잘못 표기되는 것을 예방해야 한다.\n구글지도 오류 수정 방법\n지역(region)값을 반드시 \"KR\"로 설정하거나, 독도 및 동해 표기 오류가 없는 다른 지도로 대체해야한다.\n(예시) <script type=\"text/javascript\" src=\"https://maps.googleapis.com/maps/api/js?senser=false&region=KR\"></script>"
+}

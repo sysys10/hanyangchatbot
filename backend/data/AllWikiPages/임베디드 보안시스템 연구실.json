@@ -1,0 +1,5 @@
+{
+  "title": "임베디드 보안시스템 연구실",
+  "url": "https://hyu.wiki/%EC%9E%84%EB%B2%A0%EB%94%94%EB%B3%B4%EC%95%88_%EC%97%B0%EA%B5%AC%EC%8B%A4",
+  "content": "연구분야는 보안 SoC설계, PUF(Physical Unclonable Function), 모바일 금융결제, DPA 공격 방어 기법, GPGPU(General Purpose GPU) 병렬 처리로 나뉜다.\n소속: 서울 공과대학\n융합전자공학부\n영문명: Embedded Security System Lab.\n실장:\n김동규\n융합전자공학부\n교수\n홈페이지:\nhttp://esslab.hanyang.ac.kr/\n목차\n1\n주요 연구\n1.1\n보안 SoC설계\n1.2\nPUF(Physical Unclonable Function)\n1.3\n모바일 금융결제\n1.4\nDPA 공격 방어 기법\n1.5\nGPGPU(General Purpose GPU) 병렬 처리\n주요 연구\n보안 SoC설계\n정보 누출 방지, 위변조 방지, 사용자 인증 등을 위한 다양한 암호 알고리즘과 프로토콜을 연구하며, 기존의 소프트웨어 보안방식의 취약점 극복과 효율성을 위해 전용 하드웨어 모듈을 구현하고 이를 검증한다.\nTPM(Trusted Platform Module)과 OTP(One Time Password)와 같은 보안 솔루션의 효율적인 구현 방법을 연구한다.\nPUF(Physical Unclonable Function)\n복제 불가능한 키의 저장 방법에 대한 연구를 수행한다.\n모바일 금융결제\nUSIM을 이용한 사용자 휴대폰의 모바일 네트워크에 기반을 둔 결제 시스템을 연구한다.\nDPA 공격 방어 기법\n전력 분석에 의해 암호 알고리즘이 공격당하는 것을 막기 위한 기법을 연구한다.\nGPGPU(General Purpose GPU) 병렬 처리\n그래픽카드와 CUDA를 활용하여, 연산시간이 많이 걸리는 암호 알고리즘을 병렬로 처리하는 방안을 연구한다."
+}

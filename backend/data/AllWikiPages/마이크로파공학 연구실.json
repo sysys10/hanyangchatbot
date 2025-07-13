@@ -1,0 +1,5 @@
+{
+  "title": "마이크로파공학 연구실",
+  "url": "https://hyu.wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%ED%8C%8C%EA%B3%B5%ED%95%99_%EC%97%B0%EA%B5%AC%EC%8B%A4",
+  "content": "연구 분야는 크게 안테나 설계와 EMI/EMC로 나눌수 있다.\n소속: 서울 공과대학\n융합전자공학부\n영문명: Microwave Engineering Laboratory\n실장:\n김형동\n융합전자공학부\n교수\n홈페이지:\nhttp://melab.hanyang.ac.kr\n주요 연구\n안테나 설계\nGRANDIANT(ground radiation antenna), PIE(planar inverted-E) 안테나, double PIE 안테나, electric/magnetic current feeding method를 이용한 광대역 안테나, 공진 모드 제어 및 안테나 coupling 분석을 통한 휴대 단말기의 공진 모드 제어 기법 개발, MIMO 안테나 및 decoupling 기술, RFID/NFC 리더 및 태그 안테나 개발, 유전체 공진 안테나에 대한 연구를 진행하고 있다.\nEMI/EMC\n휴대 단말기 TRP(total radiated power)/TIS(total isotropic sensitivity) 향상 방법, 휴대 단말기의 EMC/EMI 분석 모델링, SAR(specific absorption ratio) 특성 분석, 전자기파 수치해석 모델링, 전자기파 분석 알고리즘 개발, 휴대 단말기 방사 모드 컨트롤 기법 개발에 대한 연구를 진행하고 있다."
+}

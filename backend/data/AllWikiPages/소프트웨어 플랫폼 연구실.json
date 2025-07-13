@@ -1,0 +1,5 @@
+{
+  "title": "소프트웨어 플랫폼 연구실",
+  "url": "https://hyu.wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EC%97%B0%EA%B5%AC%EC%8B%A4",
+  "content": "소프트웨어플랫폼이란 동일한 범주의 다양한 응용프로그램들이 개발되고 동작할 수 있도록 하는 소프트웨어 환경을 말하며, 응용프로그램 개발을 위한 라이브러리 및 유틸리티, 실행을 위한 런타임 엔진 등을 포함한다.\n연구실에서는 대표적인 소프트웨어플랫폼인 모바일 플랫폼, 클라우드 플랫폼, IoT 플랫폼, 엣지 플랫폼 등을 대상으로, Mobile Collaboration, Cloud-Edge-IoT Integrated Computing을 연구한다. 특히, 클라우드에서 사용하고 있는 가상화 기법들을 모바일 시스템에 적용하여 모바일과 클라우드 시스템의 통합 플랫폼을 구축하는 것에 초점을 맞추고 있다.\n소속: 서울\n공과대학\n컴퓨터소프트웨어학부\n영문명: Software Platforms Laboratory\n실장:\n강수용\n공과대학\n컴퓨터소프트웨어학부\n교수\n홈페이지:\nhttp://splab.hanyang.ac.kr/\n위치:\nITBT관\n204-2호,\n산학기술관\n502호\n전화번호: 02-2220-4438, 4439\n주요 연구분야\nCloud computing platform\nMobile platform support for device-centric cloud computing\nMobile platform support for mobile collaboration\nIoT-assisted Edge computing for IoT-Edge-Cloud integrated computing\nInnovative IoT/Edge/Cloud services"
+}

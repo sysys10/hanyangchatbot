@@ -1,0 +1,5 @@
+{
+  "title": "임베드 제어시스템 연구실",
+  "url": "https://hyu.wiki/%EC%9E%84%EB%B2%A0%EB%93%9C%EC%A0%9C%EC%96%B4%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%97%B0%EA%B5%AC%EC%8B%A4",
+  "content": "본 연구실은 하이브리드 차량 제어 시스템 설계 및 분석, 차량의 지능형 샤시 통합 제어 시스템 제어, 차량의 지능형 샤시 통합 제어 시스템 고장허용제어 및 통신, Virtual Vehicle Test System, Model Based Integration of Embedded Software, 직렬 통신에 의한 제어 등을 실험하고 있습니다.\n임베드 제어시스템 연구실 홈페이지 참고(2019.11)\n소속: 서울\n공과대학\n전기생체공학부\n전기공학전공\n영문명: The Embedded control system lab (ECSL)\n실장:\n이형철\n전기생체공학부\n전기공학전공\n교수\n홈페이지:\nhttp://ecsl.hanyang.ac.kr/\n목차\n1\n주요 연구\n1.1\nGreen Car\n1.2\nSmart Car\n1.3\nVehicle Control System\n주요 연구\nGreen Car\nTMED 타입 하이브리드 구동계의 진동 감쇠 제어에 대한 연구\n48V 마일드 하이브리드 시스템의 최적 구조 및 시스템 제어에 대한 연구\n4륜 구동 48V 마일드 하이브리드 차량의 모델링 및 제어알고리즘 연구\n1리터카를 위한 클린디젤 하이브리드 원천기술 개발\nSmart Car\nADAS 시험평가 기술 개발\n미래형 교차로 환경(C-ITS)을 고려한 경제 운전 알고리즘 개발\n실도로 기반 자율주행차 검증 및 분석 알고리즘 개발\nVehicle Control System\n모델 기반 듀얼클러치 FDI (Fault Detection and isolation) 알고리즘 개발"
+}

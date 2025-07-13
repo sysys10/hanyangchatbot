@@ -1,0 +1,5 @@
+{
+  "title": "지능형모형차경진대회",
+  "url": "https://hyu.wiki/%EC%A7%80%EB%8A%A5%ED%98%95%EB%AA%A8%ED%98%95%EC%B0%A8%EB%8C%80%ED%9A%8C",
+  "content": "한양대\n에이스랩\n(\nACELab\n)에서 매년 개최하는 모형 자동차 대회로, 여러 센서와 프로그래밍을 통해 자율주행이 가능하도록 제작하여 지정된 트랙을 돌아 가장 빠르게 미션을 완수한 팀에게 시상하는 대회이다.\n선우명호\n교수가 이 대회를 만들었고, 대회장을 맡고 있다.\n2019년 대회를 끝으로 종결되었다.\n대회 공식 홈페이지 :\nhttp://race.acelab.org\n연도별 주요 적용 기술\n2003년부터 : 라인 트레이싱(Line tracing) 적용\n2010년부터 : 스마트 크루주제어(Smart cruise control), 자동 주차(Autonomous parking)\n2014년 : 차선 유지 제어(Lane keeping control)와 속도 제한 구간(school zone) 도입\n2015년 : 자율비상제동(Autonomous emergency braking)\n2016년 : 충돌 회피 (Collision avoidance)\n2017년 : 점선 차선 검출 (Dashed lane detection)\n2018년 : 횡단 보도 인식 (Crosswalk detection)\n2019년 : 도심 내 자율주행\n교내관련기사\n<\n뉴스H\n> 2019.07.11 2019 지능형모형차 경진대회 통해 스마트카 핵심기술 테스트\n<\n뉴스H\n> 2019.07.09 [알림] 전국 대학생들, 11일 都心 자율주행차 기술 선보인다"
+}

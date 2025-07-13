@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>한양대학교 챗봇</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-chat-screen" id="main-chat">
+  <!-- ✅ 다크모드 토글 -->
+  <div class="toggle-wrapper">
+    <label class="toggle">
+      <input type="checkbox" id="darkmode-toggle" />
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  <!-- ✅ 모드 전환 버튼 -->
+  <div class="mode-buttons">
+    <button id="mobile-btn">
+      <img src="fluent_phone-24-filled.png" alt="모바일" width="24">
+    </button>
+    <button id="desktop-btn">
+      <img src="material-symbols_computer.png" alt="데스크탑" width="24">
+    </button>
+  </div>
+
+  <!-- ✅ 배경 이미지 -->
+  <img src="Onboarding.png" id="light-bg" class="chat-bg" alt="Light BG">
+  <img src="Onboarding2.png" id="dark-bg" class="chat-bg" alt="Dark BG">
+
+  <!-- ✅ 채팅 영역 -->
+  <div class="chat-body" id="chat-body">
+    <div class="bot-message-wrapper" id="intro-message">
+      <img src="images/image1.png" class="bot-avatar" alt="챗봇">
+      <div class="bot-message">
+        안녕하세요!<br>
+        한양대학교 챗봇입니다.<br>
+        궁금한 것을 아래에 입력해 주세요.
+      </div>
+    </div>
+  </div>
+
+  <!-- ✅ 입력창 -->
+  <div class="chat-footer">
+    <input type="text" id="user-input" placeholder="무엇이든 물어보세요.">
+    <button id="send-btn">➤</button>
+  </div>
+</div>
+
+<!— ✅ 기능 스크립트 —>
+<script src="script.js"></script>
+
+</body>
+</html>

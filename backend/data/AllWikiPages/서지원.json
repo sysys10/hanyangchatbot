@@ -1,0 +1,5 @@
+{
+  "title": "서지원",
+  "url": "https://hyu.wiki/%EC%84%9C%EC%A7%80%EC%9B%90",
+  "content": "서지원은 서울\n공과대학\n컴퓨터소프트웨어학부\n교수이다.\n위치:\nITBT관\n405-1호\n연락처: 02-2220-2400 / seojiwon@hanyang.ac.kr\n연구실:\n빅 데이터 시스템 연구실\n목차\n1\n학력\n2\n경력\n3\n주요 연구\n3.1\n딥러닝 모델 효율적으로 학습하는 ‘자이로 드롭아웃(Gyro Dropout)’ 개발\n학력\nPh.D. Stanford University\nM.S.  Stanford University\nB.S.   Seoul National University\n경력\nHanyang University (2017~): Assistant Professor\nUNIST (2016~2017): Assistant Professor\nPinterest (2015): Research Engineer\nLinkedIn (2014): Research Scientist\n주요 연구\n딥러닝 모델 효율적으로 학습하는 ‘자이로 드롭아웃(Gyro Dropout)’ 개발\n딥러닝 모델 학습에서 사용되는 드롭아웃(Dropout) 알고리즘을 개선한 기술로, 모델의 일반화를 높이도록 학습하여 추론 정확도 향상\n연구결과를 머신러닝 시스템 분야의 우수 학술대회 ‘MLSys’에서 발표\n실리콘밸리 기반 스타트업 MosaicML와 협업해 자이로 드롭아웃 알고리즘을 당사 오픈소스 시스템인 컴포저 버전 0.12에 공개"
+}

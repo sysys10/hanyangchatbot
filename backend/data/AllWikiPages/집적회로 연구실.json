@@ -1,0 +1,5 @@
+{
+  "title": "집적회로 연구실",
+  "url": "https://hyu.wiki/%EC%A7%91%EC%A0%81%ED%9A%8C%EB%A1%9C%EC%97%B0%EA%B5%AC%EC%8B%A4",
+  "content": "연구 분야는 크게 데이터 변환기 설계, 메모리 인터페이스 회로 설계, 고속직렬 인터페이스 회로 설계, 전력관리용 집적 회로 설계, 디스플레이 회로 설계로 나눌 수 있다.\n소속: 서울 공과대학\n융합전자공학부\n영문명: Integrated Circuits Labortatory\n실장:\n유창식\n융합전자공학부\n교수\n홈페이지:\nhttp://iclab.hanyang.ac.kr\n목차\n1\n주요 연구\n1.1\n데이터 변환기 설계 분야\n1.2\n메모리 인터페이스 회로 설계 분야\n1.3\n고속 직렬 인터페이스 회로 설계 분야\n1.4\n전력관리용 집적 회로 설계 분야\n1.5\n디스플레이 회로 설계 분야\n주요 연구\n데이터 변환기 설계 분야\n아날로그 신호를 디지털로 변환하는 기술로, 저전력 청각 프로세서 SoC 개발에 적용되고 있다.\n메모리 인터페이스 회로 설계 분야\n차세대 메모리를 지원하기 위한 PLL(Phase-Locked Loop), DLL(Delay-locked Loop) 등의 기반기술개발을 진행하고 있다.\n고속 직렬 인터페이스 회로 설계 분야\n전압모드 드라이버를 적용한 송신단의 설계 뿐 아니라 위상 회전 PLL을 이용한 CDR을 통해 저전력, 고성능의 수신단을 설계하여, 다양한 적용이 가능한 양방향 Universal PHY Layer를 설계하고 있습니다.\n전력관리용 집적 회로 설계 분야\n무선 전력전송을 위한 Active Rectifier 및 DC-DC Converter 설계, Digital TV용 통합 전력관리 회로 설계, Battery 충전 회로 설계에 관한 연구를 진행하고 있다.\n디스플레이 회로 설계 분야\nAMOLED, OLEDoS(OLED-on-Silicon) 디스플레이를 위한 화소(Pixel) 회로 및 구동 방법에 관한 연구를 진행 중이다."
+}
